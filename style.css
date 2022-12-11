@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    font-family: 'Rubik';
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: minmax(200px, 239px) repeat(2, 200px);
+    grid-column-gap: 20px;
+    margin-top: 200px;
+}
+
+.report {
+    grid-row: span 2;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    width: 240px;
+    height: 450px;
+}
+
+#profile {
+   background-color: hsl(246, 80%, 60%);
+   padding: 35px;
+   border-radius: 15px;
+}
+
+#profile > p {
+    margin-top: 30px;
+    font-weight: 300;
+    opacity: 0.3;
+    font-size: 14px;
+}
+
+#profile > h1 {
+    font-weight: 300;
+    line-height: 2.3rem;
+    margin-bottom: 30px;
+}
+
+#profile > img {
+    height: 65px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#calendar {
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#calendar > button {
+    border: none;
+    background: none;
+    color: white;
+    opacity: 0.5;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+#calendar > button:hover {
+    opacity: 1;
+}
+
+#calendar > .active {
+    opacity: 1;
+}
+
+.work {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(./images/icon-work.svg);
+}
+
+.play {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(./images/icon-play.svg);
+}
+
+.study {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(./images/icon-study.svg);
+}
+
+.exercise {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(./images/icon-exercise.svg);
+}
+
+.social {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(./images/icon-social.svg);
+}
+
+.self-care {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(./images/icon-self-care.svg);
+}
+
+.grid {
+    border-radius: 15px;
+    height: 210px;
+    width: 230px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.card {
+    background-color: hsl(235, 46%, 20%);
+    margin-top: 41px;
+    border-radius: 15px;
+    padding: 35px 0px 0px 35px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.card:hover {
+    height: 185px;
+    margin-top: 26px;
+}
+
+.card > .eyebrow {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.menu-icon {
+    margin: 0.5rem;
+    margin-left: 9rem;
+    position: fixed;
+}
+
+.card > h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.card > p {
+    font-weight: 300;
+    opacity: 0.5;
+    margin-top: -10px;
+}
+
+.weekly,
+.monthly {
+    display: none;
+}

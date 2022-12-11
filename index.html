@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link href='https://fonts.googleapis.com/css?family=Rubik:wght@300;400;500' rel='stylesheet'>
+  <Link rel="stylesheet" href="style.css">
+  <Link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="cards">
+      <div class="report">
+        <div id="profile">
+          <img src="./images/image-jeremy.png" alt="jeremy image">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+        <div id="calendar">
+          <button class="active">Daily</button>
+          <button>Weekly</button>
+          <button>Monthly</button>
+        </div>
+      </div>
+      <div class="work grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Work</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h1 class="daily">5hrs</h1>
+          <p class="daily previous">last day - 7hrs</p>
+          <h1 class="weekly">32hrs</h1>
+          <p class="weekly previous">last week - 36hrs</p>
+          <h1 class="monthly">103hrs</h1>
+          <p class="monthly previous">last month - 128hrs</p>
+        </div>
+      </div>
+      <div class="play grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Play</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h1 class="daily">1hr</h1>
+          <p class="daily previous">last day - 2hrs</p>
+          <h1 class="weekly">10hrs</h1>
+          <p class="weekly previous">last week - 8hrs</p>
+          <h1 class="monthly">23hrs</h1>
+          <p class="monthly previous">last month - 29hrs</p>
+        </div>
+      </div>
+
+      <div class="study grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Study</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h1 class="daily">0hrs</h1>
+          <p class="daily previous">last day - 1hr</p>
+          <h1 class="weekly">4hrs</h1>
+          <p class="weekly previous">last week - 5hrs</p>
+          <h1 class="monthly">11hrs</h1>
+          <p class="monthly previous">last month - 18hrs</p>
+        </div>  
+      </div>
+
+      <div class="exercise grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Exercise</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF" fill-rule="evenodd"></path>
+              </svg>
+          </div>
+          <h1 class="daily">1hr</h1>
+          <p class="daily previous">last day - 1hr</p>
+          <h1 class="weekly">4hrs</h1>
+          <p class="weekly previous">last week - 5hrs</p>
+          <h1 class="monthly">11hrs</h1>
+          <p class="monthly previous">last month - 18hrs</p>
+        </div>
+      </div>
+
+      <div class="social grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Social</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h1 class="daily">1hr</h1>
+          <p class="daily previous">last day - 3hrs</p>
+          <h1 class="weekly">5hrs</h1>
+          <p class="weekly previous">last week - 10hrs</p>
+          <h1 class="monthly">21hrs</h1>
+          <p class="monthly previous">last month - 23hrs</p>
+        </div>
+      </div>
+      <div class="self-care grid">
+        <div class="card">
+          <div class="eyebrow">
+            <p>Self Care</p>
+            <svg class="menu-icon" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h1 class="daily">0hrs</h1>
+          <p class="daily previous">last day - 1hr</p>
+          <h1 class="weekly">2hrs</h1>
+          <p class="weekly previous">last week - 2hrs</p>
+          <h1 class="monthly">7hrs</h1>
+          <p class="monthly previous">last month - 11hrs</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
